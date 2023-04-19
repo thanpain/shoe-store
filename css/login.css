@@ -1,0 +1,148 @@
+/*  ------ 
+    đăng nhập 
+    -------
+*/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+.container {
+    width: 40rem;
+    height: 52rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+}
+.container .title {
+    text-align: center;
+    font-size: 3rem;
+}
+.container .container-login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.container .container-login label {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.container .container-login input {
+    width: 100%;
+    border: .1rem solid rgba(0, 0, 0, .3);
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+    border-radius: .3rem;
+    font-weight: 600;
+}
+.container .container-login input:focus {
+    border: .2rem solid #34495E;
+}
+.container .container-login .dk-tk {
+    text-decoration: underline;
+    font-size: 1.3rem;
+    color: var(--color_black);
+    padding: 1rem 0;
+    display: inline-block;
+    float: right;
+}
+.container .container-login .btn {
+    cursor: pointer;
+    color: var(--color_white);
+    background: #34495E;
+}
+.container .container-login .pass {
+    position: relative;
+}
+.container .container-login i {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 1rem;
+    top: 4rem;
+    cursor: pointer;
+}
+.container .connect {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+}
+.container .connect button {
+    padding: 1rem 4rem;
+    cursor: pointer;
+}
+.container .connect .facebook {
+    background: #3b5998;
+    color: var(--color_white);
+}
+.container .connect .google {
+    background: #f54b42;
+    color: var(--color_white);
+}
+
+/* 
+    ------------ 
+    đăng ký 
+    ------------
+*/
+.main {
+    margin: 3rem 0;
+}
+.container-fluid {
+    width: 40rem;
+    height: 57rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 4rem 1rem;
+}
+.container-fluid .title {
+    text-align: center;
+    font-size: 3rem;
+}
+.container-fluid .container-register {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.container-fluid .container-register label {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.container-fluid .container-register input {
+    width: 100%;
+    border: .1rem solid rgba(0, 0, 0, .3);
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+    border-radius: .3rem;
+    font-weight: 600;
+}
+.container-fluid .container-register input:focus {
+    border: .2rem solid #34495E;
+}
+.container-fluid .container-register .dang-nhap {
+    text-decoration: underline;
+    font-size: 1.3rem;
+    color: var(--color_black);
+    padding: 1rem 0;
+    display: inline-block;
+    float: right;
+}
+.container-fluid .container-register .btn {
+    cursor: pointer;
+    color: var(--color_white);
+    background: #34495E;
+}
+.container-fluid .container-register .pass {
+    position: relative;
+}
+.container-fluid .container-register i {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 1rem;
+    top: 4rem;
+    cursor: pointer;
+}

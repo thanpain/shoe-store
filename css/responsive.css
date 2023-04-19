@@ -1,0 +1,107 @@
+
+@media (max-width: 1450px) {
+    .product .product-items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+@media (max-width: 1130px) {
+    html {
+        font-size: 55%;
+    }
+    .product .product-items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 1100px) {
+    .product .product-items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+@media (max-width: 997px) {
+    html {
+        font-size: 50%;
+    }
+    nav {
+        padding: 0 6rem;
+    }
+    .product .product-items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 880px) {
+    html {
+        font-size: 43%;
+    }
+    .product .product-items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 800px) {
+    html {
+        font-size: 43%;
+    }
+    .product .product-items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 768px) {
+    .icon {
+        text-align: center;
+    }
+    nav ul {
+        position: absolute;
+        width: 100%;
+        right: 0;
+        top: 0;
+        display: block;
+        visibility: hidden;
+        background: #fff;
+        height: 100vh;
+        z-index: 999;
+        padding: 7.5rem 0;
+    }
+    nav .navbar.active {
+        visibility: visible;
+        transition: var(--transition_0_3);
+    }
+    nav ul li {
+        display: block;
+    }
+    nav ul li a {
+        padding: 1.5rem 1.5rem;
+        display: block;
+        border-bottom: .1rem solid rgba(0, 0, 0, 0.1);
+    }
+    #heart, #shopping, 
+    .call {
+        display: none;
+    }
+    .icon_2 {
+        display: flex;
+    }
+    nav .fa-bars {
+        display: block;
+        z-index: 999;
+    }
+    nav #search, #bars, #close {
+        font-size: 3rem;
+    }
+    header {
+        display: flex;
+        justify-content: between-space;
+    }
+    .fa-xmark {
+        transform: rotate(90deg);
+    }
+    .product .product-items {
+        grid-template-columns: auto auto;
+    }
+    .sports-shoes .sports-shoes-container {
+        flex-direction: column;
+    }
+    .footer {
+        flex-direction: column;
+    }
+}

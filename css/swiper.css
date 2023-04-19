@@ -1,0 +1,12 @@
+.box_img img {
+    max-width: 100%;
+}
+.slide_container .container {
+    padding: 0 8rem;
+}
+.slide_container h1 {
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 5rem 0;
+}

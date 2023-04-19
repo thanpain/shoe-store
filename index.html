@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/swiper.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- swiper link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" 
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</head>
+<body>
+    <div id="preloader">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <span class="loader"></span>
+            </div>
+        </div>
+    </div>
+    <!-- header -->
+    <header>
+        <div class="call">
+            <a href="#">Call: +84 839 445 657</a>
+        </div>
+        <div class="icon">
+            <a href="#">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+        <div class="login">
+            <a href="login.html">
+                <i class="fa-solid fa-user"></i>
+                Login
+            </a>
+        </div>
+    </header>
+    <!-- nav -->
+    <nav class="menu-nav">
+        <a href="index.html" class="logo">
+            <img id="logo" src="/img/logo/shoes.png" alt="" width="100%">
+            <span>Shoes</span>
+        </a>
+        <ul class="navbar">
+            <li><a href="index.html">trang chủ</a></li>
+            <li><a href="#">giới thiệu</a></li>
+            <li><a href="#">shoe</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">danh mục</a></li>
+            <li><a href="#">tin tức</a></li>
+            <li><a href="#">liên hệ</a></li>
+        </ul>
+        <div class="icon_2">
+            <i class="fa-solid fa-magnifying-glass" id="search"></i>
+            <i class="fa-solid fa-heart" id="heart"></i>
+            <i class="fa-solid fa-cart-shopping" id="shopping"></i>
+            <i class="fa-solid fa-bars" id="bars"></i>
+            <i class="fa-solid fa-xmark" id="close"></i>
+        </div>
+        <form action="" class="form-search">
+            <input id="search-box" type="search" placeholder="Search">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </nav>
+    <!-- cart -->
+    <section class="cart">
+        <div class="items"></div>
+        <div class="backdrop"></div>
+        <div class="sidecart">
+            <div class="cart_content">
+                <div class="cart_header">
+                    <i class="fa-solid fa-cart-shopping" style="font-size: 30px;"></i>
+                    <div class="header-title">
+                        <h2 style="font-size: 20px;">Your cart</h2>
+                        <span id="items_num">0</span>
+                    </div>
+                    <span id="close_btn" class="close_btn">&times;</span>
+                </div>
+                <div class="cart_items"></div>    
+                <div class="cart_actions">
+                    <div class="subtotal">
+                        <p>Subtotal:</p>
+                        <p>$ <span id="subtotal_price">0</span></p>
+                    </div>
+                    <button>View Cart</button>
+                    <button>Checkout</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner -->
+    <section class="banner-bg" style="margin-top: -4rem;">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./img/banner/1.png" alt="Banner 1" width="100%">`
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/banner/2.png" alt="Banner 2" width="100%">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/banner/3.png" alt="Banner 3" width="100%">
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <main>
+        <section class="slide_container">
+            <h1 align="center">Sản Phẩm Nổi Bật</h1>
+            <div class="container">
+                <div class="swiper card_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide hover-parent">
+                            <div class="box_img">
+                                <img class="img" src="./img/product/shoe_1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box_img">
+                                <img class="img" src="./img/product/shoe_2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box_img">
+                                <img class="img" src="./img/product/shoe_3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box_img">
+                                <img class="img" src="./img/product/shoe_4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box_img">
+                                <img class="img" src="./img/product/shoe_5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box_img">
+                                <img class="img" src="./img/product/shoe_6.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box_img">
+                                <img class="img" src="./img/product/shoe_7.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box_img">
+                                <img class="img" src="./img/product/shoe_8.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box_img">
+                                <img class="img" src="./img/product/shoe_9.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="product">
+            <h1>Sản Phẩm Hot 2023</h1>
+            <div class="product-items" align="center"></div>
+        </section>
+        <section class="sports-shoes" align="center">
+            <div class="sports-shoes-container">
+                <div class="sports-shoes-left">
+                    <img src="./img/product/sport-shoes-1.jpg" alt="" width="100%">
+                    <p>Sports Shoes</p>
+                    <h2>25% off for sports men</h2>
+                </div>
+                <div class="sports-shoes-right">
+                    <img src="./img/product/sport-shoes-2.jpg" alt="" width="100%">
+                    <p>Sports Shoes</p>
+                    <h2>25% off for sports women</h2>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+         <!-- email -->
+        <section class="container-email" align="center">
+            <h2 class="title-email">Đăng Ký Email Để Nhận Tin tức Sản Phẩm</h2>
+            <input type="email" placeholder="Nhập Email">
+            <button class="btn-gui" type="submit">Gửi</button>
+        </section>
+        <section class="footer">
+            <div class="footer-item">
+                <h2><a href="#">CHÍNH SÁCH</a></h2>
+                <p><a href="#">Điều khoản sử dụng</a></p>
+                <p><a href="#">Hướng dẫn thanh toán</a></p>
+                <p><a href="#">Hướng dẫn mua hàng</a></p>
+                <p><a href="#">Chính sách vận chuyển</a></p>
+                <p><a href="#">Chính sách Đổi trả</a></p>
+            </div>
+            <div class="footer-item">
+                <h2><a href="#">VỀ CHÚNG TÔI</a></h2>
+                <p><a href="#">Giới thiệu</a></p>
+                <p><a href="#">Liên hệ</a></p>
+                <p><a href="#">Tin tức</a></p>
+                <p><a href="#">Tuyển dụng</a></p>
+                <p><a href="#">Hợp tác kinh doanh</a></p>
+            </div>
+            <div class="footer-item" >
+                <h2><a href="">KẾT NỐI VỚI CHÚNG TÔI</a></h2>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <p>Copyright @2022. All Rights Reserved By Pain</p>
+            </div>
+        </section>
+    </footer>
+
+    <div title="Về đầu trang" id="top-up">
+        <i class="fas fa-arrow-circle-up"></i>
+    </div>
+    <!-- swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- app.js -->
+    <script src="./js/app.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/data/data.js"></script>
+    <script>
+        // sitcky 
+        function sticky() {
+            var navbar = document.querySelector('.menu-nav');
+            var stickyNav = navbar.offsetTop;
+
+            window.onscroll = function() {
+                myFunction();
+            }
+
+            function myFunction() {
+                if(window.pageYOffset >= stickyNav) {
+                    navbar.classList.add('sticky');
+                }else {
+                    navbar.classList.remove('sticky');
+                }
+            }
+        }
+        sticky();
+    </script>
+</body>
+</html>
