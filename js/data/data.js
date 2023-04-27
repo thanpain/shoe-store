@@ -78,7 +78,7 @@ function calcItemNum() {
 function subTotalPrice() {
     let count = 0;
     cart_data.forEach((item) => (count += item.price * item.qty))
-    total.innerText = count;
+    total.innerText = `${count.toLocaleString("vi-VN")}.000đ`;
 }
 
 function renderItem() {
